@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+    color: #4D4F62;
+}
+h1, h2{
+font-size: 2.4rem;
+line-height: 3.6rem;;
+}
+h1{
+    font-weight: 275;
+}
+h2, h3{
+    font-weight: 600;
+}
+p{
+    font-weight: 400;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.main-p{
+font-size: 1.5rem;
+line-height: 2.5rem;
+letter-spacing: 0.01rem;
+margin-top: 1.3rem;
+}
+h3{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2.7rem;
+    margin-left: 2.8rem;
+    margin-top: 2.7rem;
+}
+.boxes p {
+font-size: 1.3rem;
+line-height: 2.3rem;
+letter-spacing: 0.009rem;
+margin-left: 2.9rem;
+margin-right: 2.8rem;
+margin-top: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7.6rem;
+    align-items: center;
+}
+main{
+    padding-top: 8.5rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+.boxes{
+    padding: 0 3.2rem;
+    padding-bottom: 7.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.boxes > div {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+hr{
+    top: 0;
+    background-color: #44D3D2;
+    height: 0.355rem;
+    border: none;
+}
+.team > hr{
+    background-color: #EA5454;
+}
+.karma > hr{
+    background-color: #FCAE4A;
+}
+.calculator > hr {
+    background-color: #549EF2;
+}
+.flex{
+    display: flex;
+}
+.boxes > div {
+    height: 23rem;
+}
+.supervisor{
+    position: relative;
+}
+.supervisor > img {
+    position: absolute;
+    bottom: 2.8rem;
+    right: 2.8rem;
+}
+.team{
+    position: relative;
+}
+.team > img {
+    position: absolute;
+    bottom: 2.8rem;
+    right: 2.8rem;
+}
+.karma{
+    position: relative;
+}
+.karma > img {
+    position: absolute;
+    bottom: 2.8rem;
+    right: 2.8rem;
+}
+.calculator{
+    position: relative;
+}
+.calculator > img {
+    position: absolute;
+    bottom: 2.8rem;
+    right: 2.8rem;
+}
+@media (min-width: 1300px){
+    .boxes{
+        height: 53rem;
+        width: 111rem;
+        position: relative;
+    }
+    .boxes > div{
+        height: 25rem;
+        max-width: 35rem;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    .supervisor{
+        top: 75%;
+        left: 25%;
+    }
+    .team{
+        top:25%;
+        left: 50%;
+    }
+    .karma{
+       top:125%;
+    left: 50%;
+    }
+    .calculator{
+        top: 75%;
+        right: 0;
+    }
+    .container{
+        text-align: center;
+    }
+    .main-p{
+        max-width: 54rem;
+    }
+
+}
+
